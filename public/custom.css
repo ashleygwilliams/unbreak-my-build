@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900);
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.remark-slide-content {
+  background-color: rgba(203, 56, 55, 1);
+  color: white;
+}
+
+code {
+  background-color: #4e4e4e;
+  color: #e6e6e6;
+  padding: 15px;
+}
+
+li > code {
+  background-color: none;
+  padding: 0;
+}
+
+a:visited, a:active, a {
+  color: white;
+}
+
+.stats h1, .stats h2 {
+  background-color: rgba(203, 56, 55, 1);
+  color: white;
+  padding: 10px 20px;
+}
+
+.citation {
+  font-size: 0.7em;
+  padding: 5px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(203, 56, 55, 1);
+}
+
+.real-big {
+  font-size: 2em;
+}
+
+#heart {
+  position: relative;
+  top: 20px;
+}

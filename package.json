@@ -1,0 +1,18 @@
+{
+  "name": "unbreak-my-build",
+  "version": "1.0.0",
+  "description": "> a ballad on the subjectivity of semver",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashleygwilliams/unbreak-my-build.git"
+  },
+  "author": "ag_dubs <ashley666ashley@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashleygwilliams/unbreak-my-build/issues"
+  },
+  "homepage": "https://github.com/ashleygwilliams/unbreak-my-build#readme"
+}

@@ -1,9 +1,9 @@
 {
   "name": "unbreak-my-build",
   "version": "1.0.0",
-  "description": "> a ballad on the subjectivity of semver",
+  "description": "a ballad on the subjectivity of semver",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "live-server ./"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/ashleygwilliams/unbreak-my-build/issues"
   },
-  "homepage": "https://github.com/ashleygwilliams/unbreak-my-build#readme"
+  "homepage": "https://github.com/ashleygwilliams/unbreak-my-build#readme",
+  "devDependencies": {
+    "live-server": "^0.9.1"
+  }
 }

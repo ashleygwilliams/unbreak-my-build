@@ -1,49 +1,21 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Tinos:400,700,400italic,700italic);
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Tinos", serif;
 }
 
-.remark-slide-content {
-  background-color: rgba(203, 56, 55, 1);
-  color: white;
+h1, h2 {
+  font-style: italic;
+  font-weight: 400;
+  background-color: white;
+  padding: 15px 0;
 }
 
-code {
-  background-color: #4e4e4e;
-  color: #e6e6e6;
-  padding: 15px;
+h2 {
+  background-color: rgba(255, 255, 255, 0.5)
 }
 
-li > code {
-  background-color: none;
-  padding: 0;
-}
-
-a:visited, a:active, a {
-  color: white;
-}
-
-.stats h1, .stats h2 {
-  background-color: rgba(203, 56, 55, 1);
-  color: white;
-  padding: 10px 20px;
-}
-
-.citation {
-  font-size: 0.7em;
-  padding: 5px;
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  background-color: rgba(203, 56, 55, 1);
-}
-
-.real-big {
-  font-size: 2em;
-}
-
-#heart {
-  position: relative;
-  top: 20px;
+.david-methvin {
+  background-image: url(img/davidmethvin.jpg);
+  background-size: cover center;
 }
